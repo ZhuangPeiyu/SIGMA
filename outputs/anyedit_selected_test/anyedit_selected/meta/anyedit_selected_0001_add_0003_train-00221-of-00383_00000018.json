@@ -1,0 +1,12 @@
+{
+  "category": "anyedit_selected",
+  "key": "add_0003_train-00221-of-00383_00000018",
+  "instruction": "add a hot air balloon in the sky",
+  "input_path": "examples/AnyEdit_selected/add_0003_train-00221-of-00383_00000018/original.jpg",
+  "output_path": "examples/AnyEdit_selected/add_0003_train-00221-of-00383_00000018/edited.jpg",
+  "mask_prob_png": "outputs/anyedit_selected_test/anyedit_selected/masks/anyedit_selected_0001_add_0003_train-00221-of-00383_00000018_pred_prob.png",
+  "vis_png": "outputs/anyedit_selected_test/anyedit_selected/vis/anyedit_selected_0001_add_0003_train-00221-of-00383_00000018_compare.png",
+  "dataset": "custom",
+  "infer_size": 518,
+  "ckpt": "weights/model.pt"
+}

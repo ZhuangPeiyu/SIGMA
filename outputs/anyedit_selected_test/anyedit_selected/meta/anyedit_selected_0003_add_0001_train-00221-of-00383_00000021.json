@@ -1,0 +1,12 @@
+{
+  "category": "anyedit_selected",
+  "key": "add_0001_train-00221-of-00383_00000021",
+  "instruction": "add a small bird perched on her shoulder",
+  "input_path": "examples/AnyEdit_selected/add_0001_train-00221-of-00383_00000021/original.jpg",
+  "output_path": "examples/AnyEdit_selected/add_0001_train-00221-of-00383_00000021/edited.jpg",
+  "mask_prob_png": "outputs/anyedit_selected_test/anyedit_selected/masks/anyedit_selected_0003_add_0001_train-00221-of-00383_00000021_pred_prob.png",
+  "vis_png": "outputs/anyedit_selected_test/anyedit_selected/vis/anyedit_selected_0003_add_0001_train-00221-of-00383_00000021_compare.png",
+  "dataset": "custom",
+  "infer_size": 518,
+  "ckpt": "weights/model.pt"
+}

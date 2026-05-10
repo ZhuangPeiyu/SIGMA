@@ -1,0 +1,12 @@
+{
+  "category": "anyedit_selected",
+  "key": "add_0026_train-00221-of-00383_00000079",
+  "instruction": "add a colorful sign above the DVDs",
+  "input_path": "examples/AnyEdit_selected/add_0026_train-00221-of-00383_00000079/original.jpg",
+  "output_path": "examples/AnyEdit_selected/add_0026_train-00221-of-00383_00000079/edited.jpg",
+  "mask_prob_png": "outputs/anyedit_selected_test/anyedit_selected/masks/anyedit_selected_0002_add_0026_train-00221-of-00383_00000079_pred_prob.png",
+  "vis_png": "outputs/anyedit_selected_test/anyedit_selected/vis/anyedit_selected_0002_add_0026_train-00221-of-00383_00000079_compare.png",
+  "dataset": "custom",
+  "infer_size": 518,
+  "ckpt": "weights/model.pt"
+}

@@ -1,0 +1,56 @@
+seed: 42
+device: cuda
+
+model:
+  # ffd = semantic-difference-only model defined in src/highaccmaskgen/FFD.py
+  variant: "ffd"
+  encoder_name: "vit_base_patch14_dinov2.lvd142m"
+  encoder_pretrained: true
+  encoder_trainable: false
+  # FFD_PRESETS in FFD.py (non-empty preset overrides fields below)
+  # ffd_preset: ""  # ffd_baseline | ffd_msdm_nodrb | ffd_msdm_nodrb_sem | ffd_msdm_drb{2,4,6,8} | ...
+  #   legacy: ffd_sem_only | ffd_all_strategies  (same as ffd_msdm_drb2)
+  # multiscale_msdm: true
+  # num_drb_blocks: 2
+  # use_pixel_aux: true   # keep fixed true in current ablations (do not vary across presets)
+  # use_sem_branch: true
+  # msdm_out_ch: 256
+  # drb_num_heads: 8
+  # drb_ffn_mult: 4
+  # drb_dropout: 0.0
+  hf_hub_cache: "resource"
+
+paths:
+  forged_root: "resource/datasets/brgen_disk2/Forged"
+  mask_root: "resource/datasets/brgen_disk2/Mask"
+  real_root: "resource/datasets/brgen_disk2/RealImage_Img"
+
+dataset:
+  split: "all"
+  domain: "all"
+  methods: ["BrushNet", "LaMa", "MAT", "PowerPaint", "SDXL"]
+  image_size: 518
+  val_ratio: 0.1
+  num_workers: 4
+
+train:
+  batch_size: 8
+  lr: 0.001
+  weight_decay: 0.0001
+  epochs: 2
+  grad_clip: 1.0
+  w_bce: 1.0
+  w_dice: 1.0
+  w_boundary: 0.4
+  w_smooth: 0.02
+  lr_floor: 0.0001
+  log_every_iters: 500
+
+augment:
+  enable_pixel_drift_aug: true
+  max_translate: 6
+  max_rotate_deg: 2.5
+  max_scale_delta: 0.04
+  jpeg_quality_min: 60
+  jpeg_quality_max: 95
+  blur_prob: 0.3

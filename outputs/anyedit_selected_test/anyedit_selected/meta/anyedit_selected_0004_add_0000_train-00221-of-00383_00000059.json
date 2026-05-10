@@ -1,0 +1,12 @@
+{
+  "category": "anyedit_selected",
+  "key": "add_0000_train-00221-of-00383_00000059",
+  "instruction": "add a dollop of sour cream on top of the pepper",
+  "input_path": "examples/AnyEdit_selected/add_0000_train-00221-of-00383_00000059/original.jpg",
+  "output_path": "examples/AnyEdit_selected/add_0000_train-00221-of-00383_00000059/edited.jpg",
+  "mask_prob_png": "outputs/anyedit_selected_test/anyedit_selected/masks/anyedit_selected_0004_add_0000_train-00221-of-00383_00000059_pred_prob.png",
+  "vis_png": "outputs/anyedit_selected_test/anyedit_selected/vis/anyedit_selected_0004_add_0000_train-00221-of-00383_00000059_compare.png",
+  "dataset": "custom",
+  "infer_size": 518,
+  "ckpt": "weights/model.pt"
+}

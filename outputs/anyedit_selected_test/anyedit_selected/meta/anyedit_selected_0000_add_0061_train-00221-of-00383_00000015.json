@@ -1,0 +1,12 @@
+{
+  "category": "anyedit_selected",
+  "key": "add_0061_train-00221-of-00383_00000015",
+  "instruction": "include a butterfly nearby",
+  "input_path": "examples/AnyEdit_selected/add_0061_train-00221-of-00383_00000015/original.jpg",
+  "output_path": "examples/AnyEdit_selected/add_0061_train-00221-of-00383_00000015/edited.jpg",
+  "mask_prob_png": "outputs/anyedit_selected_test/anyedit_selected/masks/anyedit_selected_0000_add_0061_train-00221-of-00383_00000015_pred_prob.png",
+  "vis_png": "outputs/anyedit_selected_test/anyedit_selected/vis/anyedit_selected_0000_add_0061_train-00221-of-00383_00000015_compare.png",
+  "dataset": "custom",
+  "infer_size": 518,
+  "ckpt": "weights/model.pt"
+}

@@ -1,0 +1,7 @@
+{
+  "requested_name": "add_0061_train-00221-of-00383_00000015",
+  "row_uid": "train-00221-of-00383_00000015",
+  "source_input_saved_path": "original_image/add/train-00221-of-00383_00000015_orig.jpg",
+  "source_output_saved_path": "edited_image/add/train-00221-of-00383_00000015_edited.jpg",
+  "instruction": "include a butterfly nearby"
+}

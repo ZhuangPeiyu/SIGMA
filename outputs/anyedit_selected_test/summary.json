@@ -1,0 +1,76 @@
+{
+  "decoded_root": "outputs/anyedit_selected_decoded",
+  "records_root": "outputs/anyedit_selected_records",
+  "index_path": "",
+  "dataset": "custom",
+  "n_per_cat": 5,
+  "seed": 42,
+  "categories": [
+    "anyedit_selected"
+  ],
+  "records_name": "records.jsonl",
+  "instruction_field": "",
+  "save_vis": true,
+  "samples": [
+    {
+      "category": "anyedit_selected",
+      "key": "add_0061_train-00221-of-00383_00000015",
+      "instruction": "include a butterfly nearby",
+      "input_path": "examples/AnyEdit_selected/add_0061_train-00221-of-00383_00000015/original.jpg",
+      "output_path": "examples/AnyEdit_selected/add_0061_train-00221-of-00383_00000015/edited.jpg",
+      "mask_prob_png": "outputs/anyedit_selected_test/anyedit_selected/masks/anyedit_selected_0000_add_0061_train-00221-of-00383_00000015_pred_prob.png",
+      "vis_png": "outputs/anyedit_selected_test/anyedit_selected/vis/anyedit_selected_0000_add_0061_train-00221-of-00383_00000015_compare.png",
+      "dataset": "custom",
+      "infer_size": 518,
+      "ckpt": "weights/model.pt"
+    },
+    {
+      "category": "anyedit_selected",
+      "key": "add_0003_train-00221-of-00383_00000018",
+      "instruction": "add a hot air balloon in the sky",
+      "input_path": "examples/AnyEdit_selected/add_0003_train-00221-of-00383_00000018/original.jpg",
+      "output_path": "examples/AnyEdit_selected/add_0003_train-00221-of-00383_00000018/edited.jpg",
+      "mask_prob_png": "outputs/anyedit_selected_test/anyedit_selected/masks/anyedit_selected_0001_add_0003_train-00221-of-00383_00000018_pred_prob.png",
+      "vis_png": "outputs/anyedit_selected_test/anyedit_selected/vis/anyedit_selected_0001_add_0003_train-00221-of-00383_00000018_compare.png",
+      "dataset": "custom",
+      "infer_size": 518,
+      "ckpt": "weights/model.pt"
+    },
+    {
+      "category": "anyedit_selected",
+      "key": "add_0026_train-00221-of-00383_00000079",
+      "instruction": "add a colorful sign above the DVDs",
+      "input_path": "examples/AnyEdit_selected/add_0026_train-00221-of-00383_00000079/original.jpg",
+      "output_path": "examples/AnyEdit_selected/add_0026_train-00221-of-00383_00000079/edited.jpg",
+      "mask_prob_png": "outputs/anyedit_selected_test/anyedit_selected/masks/anyedit_selected_0002_add_0026_train-00221-of-00383_00000079_pred_prob.png",
+      "vis_png": "outputs/anyedit_selected_test/anyedit_selected/vis/anyedit_selected_0002_add_0026_train-00221-of-00383_00000079_compare.png",
+      "dataset": "custom",
+      "infer_size": 518,
+      "ckpt": "weights/model.pt"
+    },
+    {
+      "category": "anyedit_selected",
+      "key": "add_0001_train-00221-of-00383_00000021",
+      "instruction": "add a small bird perched on her shoulder",
+      "input_path": "examples/AnyEdit_selected/add_0001_train-00221-of-00383_00000021/original.jpg",
+      "output_path": "examples/AnyEdit_selected/add_0001_train-00221-of-00383_00000021/edited.jpg",
+      "mask_prob_png": "outputs/anyedit_selected_test/anyedit_selected/masks/anyedit_selected_0003_add_0001_train-00221-of-00383_00000021_pred_prob.png",
+      "vis_png": "outputs/anyedit_selected_test/anyedit_selected/vis/anyedit_selected_0003_add_0001_train-00221-of-00383_00000021_compare.png",
+      "dataset": "custom",
+      "infer_size": 518,
+      "ckpt": "weights/model.pt"
+    },
+    {
+      "category": "anyedit_selected",
+      "key": "add_0000_train-00221-of-00383_00000059",
+      "instruction": "add a dollop of sour cream on top of the pepper",
+      "input_path": "examples/AnyEdit_selected/add_0000_train-00221-of-00383_00000059/original.jpg",
+      "output_path": "examples/AnyEdit_selected/add_0000_train-00221-of-00383_00000059/edited.jpg",
+      "mask_prob_png": "outputs/anyedit_selected_test/anyedit_selected/masks/anyedit_selected_0004_add_0000_train-00221-of-00383_00000059_pred_prob.png",
+      "vis_png": "outputs/anyedit_selected_test/anyedit_selected/vis/anyedit_selected_0004_add_0000_train-00221-of-00383_00000059_compare.png",
+      "dataset": "custom",
+      "infer_size": 518,
+      "ckpt": "weights/model.pt"
+    }
+  ]
+}

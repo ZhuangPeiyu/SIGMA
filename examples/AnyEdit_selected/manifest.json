@@ -1,0 +1,42 @@
+[
+  {
+    "requested_name": "add_0000_train-00221-of-00383_00000059",
+    "row_uid": "add_0000_train-00221-of-00383_00000059",
+    "instruction": "add a dollop of sour cream on top of the pepper",
+    "original_image": "examples/AnyEdit_selected/add_0000_train-00221-of-00383_00000059/original.jpg",
+    "edited_image": "examples/AnyEdit_selected/add_0000_train-00221-of-00383_00000059/edited.jpg",
+    "status": "ok"
+  },
+  {
+    "requested_name": "add_0001_train-00221-of-00383_00000021",
+    "row_uid": "add_0001_train-00221-of-00383_00000021",
+    "instruction": "add a small bird perched on her shoulder",
+    "original_image": "examples/AnyEdit_selected/add_0001_train-00221-of-00383_00000021/original.jpg",
+    "edited_image": "examples/AnyEdit_selected/add_0001_train-00221-of-00383_00000021/edited.jpg",
+    "status": "ok"
+  },
+  {
+    "requested_name": "add_0003_train-00221-of-00383_00000018",
+    "row_uid": "add_0003_train-00221-of-00383_00000018",
+    "instruction": "add a hot air balloon in the sky",
+    "original_image": "examples/AnyEdit_selected/add_0003_train-00221-of-00383_00000018/original.jpg",
+    "edited_image": "examples/AnyEdit_selected/add_0003_train-00221-of-00383_00000018/edited.jpg",
+    "status": "ok"
+  },
+  {
+    "requested_name": "add_0026_train-00221-of-00383_00000079",
+    "row_uid": "add_0026_train-00221-of-00383_00000079",
+    "instruction": "add a colorful sign above the DVDs",
+    "original_image": "examples/AnyEdit_selected/add_0026_train-00221-of-00383_00000079/original.jpg",
+    "edited_image": "examples/AnyEdit_selected/add_0026_train-00221-of-00383_00000079/edited.jpg",
+    "status": "ok"
+  },
+  {
+    "requested_name": "add_0061_train-00221-of-00383_00000015",
+    "row_uid": "add_0061_train-00221-of-00383_00000015",
+    "instruction": "include a butterfly nearby",
+    "original_image": "examples/AnyEdit_selected/add_0061_train-00221-of-00383_00000015/original.jpg",
+    "edited_image": "examples/AnyEdit_selected/add_0061_train-00221-of-00383_00000015/edited.jpg",
+    "status": "ok"
+  }
+]
