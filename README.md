@@ -66,6 +66,60 @@ Cross-dataset localization after fine-tuning on automatically annotated editing 
 
 *Overview of SIGMA-converted IML training data from four generative image editing corpora and their editing operation taxonomy.*
 
+## Data Use and Citation
+
+The SIGMA-annotated data released with this project are derived from public image-editing corpora. **They may be used for academic research only.** Any use must also follow the license and terms of each source dataset, and must cite both that dataset and SIGMA.
+
+| Source | Link | License / terms |
+| --- | --- | --- |
+| PromptfixData | [yeates/PromptfixData](https://huggingface.co/datasets/yeates/PromptfixData) | Research use only. The dataset and any model trained on it may not be used for commercial purposes. Users must also comply with the licenses of its source data. |
+| AnyEdit | [Bin1117/AnyEdit](https://huggingface.co/datasets/Bin1117/AnyEdit) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Its primary intended use is research on text-to-image and instruction-based image editing. |
+| CrispEdit-2M | [WeiChow/CrispEdit-2M](https://huggingface.co/datasets/WeiChow/CrispEdit-2M) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). |
+| OmniEdit-Filtered-1.2M | [TIGER-Lab/OmniEdit-Filtered-1.2M](https://huggingface.co/datasets/TIGER-Lab/OmniEdit-Filtered-1.2M) | [MIT](https://opensource.org/license/mit). |
+
+Please cite SIGMA together with the source papers:
+
+```bibtex
+@inproceedings{zhuang2026sigma,
+  title={SIGMA: Semantic-Difference Instruction-Grounding Mask Annotator for Text-Driven Image Manipulation Localization},
+  author={Zhuang, Peiyu and Yang, Jianquan and Li, Haodong and Cai, Zhuoying and Xie, Ruitao and Zeng, Jishen and Chen, Baoying and Huang, Jiwu and Cao, Xiaochun},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2026},
+  note={NeurIPS 2026 Spotlight}
+}
+
+@inproceedings{yu2025anyedit,
+  title={AnyEdit: Mastering Unified High-Quality Image Editing for Any Idea},
+  author={Yu, Qifan and Chow, Wei and Yue, Zhongqi and Pan, Kaihang and Wu, Yang and Wan, Xiaoyang and Li, Juncheng and Tang, Siliang and Zhang, Hanwang and Zhuang, Yueting},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={26125--26135},
+  year={2025}
+}
+
+@article{chow2025editmgt,
+  title={EditMGT: Unleashing Potentials of Masked Generative Transformers in Image Editing},
+  author={Chow, Wei and Li, Linfeng and Kong, Lingdong and Li, Zefeng and Xu, Qi and Song, Hang and Ye, Tian and Wang, Xian and Bai, Jinbin and Xu, Shilin and others},
+  journal={arXiv preprint arXiv:2512.11715},
+  year={2025}
+}
+
+@inproceedings{wei2025omniedit,
+  title={OmniEdit: Building Image Editing Generalist Models Through Specialist Supervision},
+  author={Wei, Cong and Xiong, Zheyang and Ren, Weiming and Du, Xinrun and Zhang, Ge and Chen, Wenhu},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025}
+}
+
+@article{yu2024promptfix,
+  title={PromptFix: You Prompt and We Fix the Photo},
+  author={Yu, Yongsheng and Zeng, Ziyun and Hua, Hang and Fu, Jianlong and Luo, Jiebo},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={40000--40031},
+  year={2024}
+}
+```
+
 ## 1) Environment Setup
 
 ### 1.1 Create and activate Conda environment
