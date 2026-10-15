@@ -2,7 +2,7 @@
 
 **SIGMA: Semantic-Difference Instruction-Grounding Mask Annotator for Text-Driven Image Manipulation Localization**
 
-This paper has been accepted as a **Spotlight** at **NeurIPS 2026**.
+🎉🏆✨ This paper has been accepted as a **Spotlight** at **NeurIPS 2026**.
 
 <p align="center">
   <a href="https://huggingface.co/PatrickZZZ/SIGMA"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow" alt="Hugging Face Model"></a>
