@@ -7,6 +7,8 @@ This paper has been accepted as a **Spotlight** at **NeurIPS 2026**.
 <p align="center">
   <a href="https://huggingface.co/PatrickZZZ/SIGMA"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow" alt="Hugging Face Model"></a>
   <a href="https://huggingface.co/datasets/PatrickZZZ/SIGMA"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue" alt="Hugging Face Dataset"></a>
+  <a href="https://www.modelscope.ai/datasets/PeiyuZhuang/SIGMA_small"><img src="https://img.shields.io/badge/ModelScope-10K%20subset-624aff" alt="ModelScope 10K subset"></a>
+  <a href="https://www.modelscope.ai/datasets/PeiyuZhuang/SIGMA_partial"><img src="https://img.shields.io/badge/ModelScope-100K%20subset-624aff" alt="ModelScope 100K subset"></a>
 </p>
 
 ## Abstract
@@ -65,6 +67,11 @@ Cross-dataset localization after fine-tuning on automatically annotated editing 
 ![Overview of SIGMA-converted IML training data from four generative image editing corpora and their editing operation taxonomy.](assets/dataset_distribution.png)
 
 *Overview of SIGMA-converted IML training data from four generative image editing corpora and their editing operation taxonomy.*
+
+The full annotated set is released on Hugging Face at [PatrickZZZ/SIGMA](https://huggingface.co/datasets/PatrickZZZ/SIGMA). Two smaller splits of the same annotations are also available on ModelScope:
+
+- **10,000** samples: [PeiyuZhuang/SIGMA_small](https://www.modelscope.ai/datasets/PeiyuZhuang/SIGMA_small)
+- **100,000** samples: [PeiyuZhuang/SIGMA_partial](https://www.modelscope.ai/datasets/PeiyuZhuang/SIGMA_partial)
 
 ## Data Use and Citation
 
