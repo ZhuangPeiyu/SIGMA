@@ -5,6 +5,8 @@
 🎉🏆✨ This paper has been accepted as a **Spotlight** at **NeurIPS 2026**.
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2605.27924"><img src="https://img.shields.io/badge/arXiv-2605.27924-b31b1b" alt="arXiv"></a>
+  <a href="https://zhuangpeiyu.github.io/projects/SIGMA/"><img src="https://img.shields.io/badge/Project-Page-2ea44f" alt="Project Page"></a>
   <a href="https://huggingface.co/PatrickZZZ/SIGMA"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow" alt="Hugging Face Model"></a>
   <a href="https://huggingface.co/datasets/PatrickZZZ/SIGMA"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue" alt="Hugging Face Dataset"></a>
   <a href="https://www.modelscope.ai/datasets/PeiyuZhuang/SIGMA_small"><img src="https://img.shields.io/badge/ModelScope-10K%20subset-624aff" alt="ModelScope 10K subset"></a>
