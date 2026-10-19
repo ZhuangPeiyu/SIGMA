@@ -89,12 +89,14 @@ The SIGMA-annotated data released with this project are derived from public imag
 Please cite SIGMA together with the source papers:
 
 ```bibtex
-@inproceedings{zhuang2026sigma,
+@misc{zhuang2026sigmasemanticdifferenceinstructiongroundingmask,
   title={SIGMA: Semantic-Difference Instruction-Grounding Mask Annotator for Text-Driven Image Manipulation Localization},
-  author={Zhuang, Peiyu and Yang, Jianquan and Li, Haodong and Cai, Zhuoying and Xie, Ruitao and Zeng, Jishen and Chen, Baoying and Huang, Jiwu and Cao, Xiaochun},
-  booktitle={Advances in Neural Information Processing Systems},
+  author={Peiyu Zhuang and Jianquan Yang and Haodong Li and Zhuoying Cai and Ruitao Xie and Jishen Zeng and Baoying Chen and Jiwu Huang and Xiaochun Cao},
   year={2026},
-  note={NeurIPS 2026 Spotlight}
+  eprint={2605.27924},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2605.27924}
 }
 
 @inproceedings{yu2025anyedit,
